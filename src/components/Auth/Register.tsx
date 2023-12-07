@@ -125,7 +125,7 @@ const Register: React.FC = () => {
           </div>
 
           <div className='text-center mx-20'>
-            <Button colors={["from-emerald-500 to-green-700", "from-emerald-700 hover:to-green-900"]} text='Register' onClick={handleRegister} />
+            <Button colors={["from-emerald-500 to-green-700", "hover:from-emerald-500 hover:to-green-900"]} text='Register' onClick={handleRegister} />
           </div>
           {!formValid && (
             <p className="text-red-500 mt-2">Please fill in all fields</p>

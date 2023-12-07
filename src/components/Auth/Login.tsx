@@ -99,7 +99,7 @@ const Login: React.FC = () => {
             onBlur={() => handleBlur('password')}
             error={passwordError}
           />
-          <Button colors={['from-green-400 to-blue-500', 'from-orange-500 hover:to-red-800']} text="Masuk" onClick={handleLogin} />
+          <Button colors={['from-green-400 to-blue-500', 'hover:from-orange-500 hover:to-red-800']} text="Masuk" onClick={handleLogin} />
 
           <hr className="my-4 bg border-t border-gray-300" />
           <div className="text-center ">
