@@ -85,8 +85,8 @@ const Register: React.FC = () => {
               {registError && <p className='text-red-500'>{responseMessage}</p>}
             </div>
             <Input
-              id={''}
-              name={' '}
+              id={'emailInput'}
+              name={'emailInput'}
               label='Email'
               icon={faEnvelope}
               type='email'
@@ -98,8 +98,8 @@ const Register: React.FC = () => {
               onBlur={() => handleBlur('email')}
               error={emailError} />
             <Input
-              id={''}
-              name={' '}
+              id={'passwordInput'}
+              name={'passwordIput'}
               label='Password'
               icon={faLock}
               type='password'
@@ -111,8 +111,8 @@ const Register: React.FC = () => {
               onBlur={() => handleBlur('password')}
               error={emailError} />
             <Input
-              id={''}
-              name={' '}
+              id={'nameInput'}
+              name={'nameInput'}
               label='Name'
               icon={faUser}
               type='text'

@@ -74,8 +74,8 @@ const Login: React.FC = () => {
             {loginError && <p className='text-red-500'>{loginMessage}</p>}
           </div>
           <Input
-            id={''}
-            name={' '}
+            id={'emailInput'}
+            name={'emailInput '}
             label="Email"
             icon={faEnvelope}
             type='email'
@@ -88,8 +88,8 @@ const Login: React.FC = () => {
             error={emailError}
           />
           <Input
-            id={''}
-            name={' '}
+            id={'passwordInput'}
+            name={'passwordInput'}
             label="Password"
             icon={faLock}
             type="password"
