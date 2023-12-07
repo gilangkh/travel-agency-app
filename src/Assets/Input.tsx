@@ -32,7 +32,9 @@ const Input: React.FC<InputProps> = (props) => {
         onChange={onChange}
         onBlur={onBlur}
       />
+      <div className="h-5">
        {error && <p className='text-red-500'>{label} tidak boleh kosong!</p>}
+      </div>
          
     </div>
   );
