@@ -81,7 +81,9 @@ const Register: React.FC = () => {
         <hr className="my-4 border-t border-gray-300" />
         <form className="space-y-4">
           <div>
-            {registError && <p className='text-red-500'>{responseMessage}</p>}
+            <div className="h-14">
+              {registError && <p className='text-red-500'>{responseMessage}</p>}
+            </div>
             <Input
               id={''}
               name={' '}

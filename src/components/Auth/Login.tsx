@@ -70,7 +70,9 @@ const Login: React.FC = () => {
       <div className="bg-blue-50 p-8 rounded shadow-md w-96">
         <h2 className="text-3xl text-blue-500 font-bold text-center mb-6">Login</h2>
         <form className="space-y-4">
-          {loginError && <p className='text-red-500'>{loginMessage}</p>}
+          <div className='h-8 '>
+            {loginError && <p className='text-red-500'>{loginMessage}</p>}
+          </div>
           <Input
             id={''}
             name={' '}
